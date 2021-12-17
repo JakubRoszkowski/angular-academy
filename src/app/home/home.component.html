@@ -1,0 +1,27 @@
+<div class="wrapper">
+  <div class="form" *ngIf="!user">
+    Hello world
+    <!-- <mat-form-field>
+      <mat-label>Login</mat-label>
+      <input [(ngModel)]="login" matInput />
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Hasło</mat-label>
+      <input [(ngModel)]="password" matInput type="password" />
+    </mat-form-field>
+    <button
+      (click)="sendCredentials()"
+      [disabled]="!login?.length || !password?.length"
+      mat-flat-button
+      color="primary"
+    >
+      Zaloguj
+    </button> -->
+  </div>
+  <!-- <div *ngIf="user?.role === 'user'">
+    <img [src]="userLink" alt="" />
+  </div>
+  <div *ngIf="user?.role === 'admin'">
+    <img [src]="adminLink" alt="" />
+  </div> -->
+</div>

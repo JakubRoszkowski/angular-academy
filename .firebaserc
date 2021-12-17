@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "akademia-728fe": {
+      "hosting": {
+        "academy": [
+          "akademia-728fe"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "akademia-728fe"
+  }
+}
